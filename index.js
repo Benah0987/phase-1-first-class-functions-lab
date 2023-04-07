@@ -35,4 +35,15 @@ const createFareMultiplier = function(num) {
   }
 
  ///fare doubler function
- //define anonymous function 
+ //define anonymous function fare doubler
+ const fareDoubler = createFareMultiplier(2);
+ //this makes the fareDOubler a function
+
+ const fareTripler = createFareMultiplier(3);
+
+ //function selectDifferentDrivers()
+
+ const selectDifferentDrivers = function(selectDrivers,...drivers){
+    return  selectDrivers;
+
+ }
