@@ -26,8 +26,13 @@ const selectingDrivers = [returnLastTwoDrivers, returnFirstTwoDrivers]
 
 //declares a const variable named and i assigend an anonymuos function
 //the function takes in an argument
-const createFareMultiplier = function(integer) {
+const createFareMultiplier = function(num) {
+    //the fucntion then returns another function that takes 
+    //fare as an argument
     return function(fare) {
-      return fare * integer;
+      return fare * num;
     }
   }
+
+ ///fare doubler function
+ //define anonymous function 
